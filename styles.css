@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 20px;
+}
+
+.instagram-post {
+    background: white;
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    width: 350px;
+    margin: 20px 0;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.profile-icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.profile-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech {
+    font-weight: bold;
+}
+
+.name {
+    font-size: 14px;
+    color: #8e8e8e;
+}
+
+.post-options {
+    display: flex;
+    align-items: center;
+}
+
+.post-options i {
+    cursor: pointer;
+}
+
+.post-image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.left-actions {
+    display: flex;
+}
+
+.action-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.action-button.bookmark {
+    margin-left: auto;
+}
+
+.post-likes {
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+.post-caption {
+    padding: 0 10px 10px;
+}
+
+.post-caption .username {
+    font-weight: bold;
+    margin-right: 5px;
+}
